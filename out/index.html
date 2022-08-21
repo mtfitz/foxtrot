@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">-->
+
+    <!-- include Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- include jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- include Bootstrap JS -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!--<link rel="stylesheet" href="css/master.css" />-->
+    <title>Michael Fitzgerald</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo row">
+        <div class="mx-auto col-sm-4 col-xs-8">
+          <a href="/">
+            <h1>Michael Fitzgerald</h1>
+          </a>
+        </div>
+      </div>
+
+      <!--<div class="row navbar">
+        <div class="col-xs-offset-4 col-xs-1">
+          <a href="/">Home</a>
+        </div>
+        <div class="col-xs-1">
+          <a>About</a>
+        </div>
+        <div class="col-xs-1">
+          <a>Projects</a>
+        </div>
+        <div class="col-xs-1">
+          <a>Contact</a>
+        </div>
+      </div>-->
+
+      <div class="row" id="navbar">
+        <div class="mx-auto col-sm-4 col-xs-8">
+          <nav class="row">
+            <div class="col-xs-4">
+  <a href="/index.html">Home</a>
+</div>
+<div class="col-xs-4">
+  <a href="/projects.html">Projects</a>
+</div>
+<div class="col-xs-4">
+  <a href="/links.html">Links</a>
+</div>
+
+          </nav>
+        </div>
+      </div>
+
+      <!-- BEGIN ACTUAL PAGE CONTENT -->
+
+      <div class="row" id="content">
+        <div class="mx-auto col-sm-6 col-xs-10">
+          <section itemscope itemtype="https://schema.org/Person">
+    <h3>About Me</h3>
+    <p>Hi! I'm <span itemprop="name">Michael Fitzgerald</span>. I'm an undergraduate student of mathematics and computer science at <span itemprop="alumniOf">Lehigh University</span>. Prospectively, I'm an aspiring software developer, though my long-term goals involve contributing to statistical methods used in computing areas like robotics.</p>
+    <p>I like to spend my time learning and applying as much as I can. This is reflected in my work ethic: when I'm not studying, I'm working on a project for a research group or for personal sake. Moreover, as a grader and TA, I do more than help others learn – I constantly learn new things from others.</p>
+    <p>This personal site is still under development. Feel free to click the links above for more information.</p>
+
+    <h3>Skills</h3>
+    <p>Through my coursework and various extracurricular projects, I have developed a strong toolset for software development. In particular, I have experience building efficient software systems with a focus on concurrency and networking. I also have experience in data science using several Python libraries.</p>
+    <h4>Programming Languages</h4>
+    <div class="container">
+        <div class="row">
+            <div class="infobox mx-auto col-xs-10 col-sm-4">
+                <div class="infobox-header"><h3>C++</h3></div>
+                <div class="infobox-body">
+                    <p>Highly concurrent, networked software using C++17 provisions</p>
+                    <p>Build and dependency management with CMake and Conan</p>
+                </div>
+            </div>
+            <div class="infobox mx-auto col-xs-10 col-sm-4">
+                <div class="infobox-header"><h3>PYTHON</h3></div>
+                <div class="infobox-body">
+                    <p>Packages for machine learning and computer vision</p>
+                    <p>Interfaced with low-level C/C++ libraries</p>
+                </div>
+            </div>
+            <div class="infobox mx-auto col-xs-10 col-sm-4">
+                <div class="infobox-header"><h3>JAVA</h3></div>
+                <div class="infobox-body">
+                    <p>Interaction with a remote Oracle database via JDBC</p>
+                    <p>Dependency management with Maven</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

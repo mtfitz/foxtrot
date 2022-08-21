@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFNI0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FNI0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FNI0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCNI0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mz9JQVG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7myjJQVG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7myRJQVG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zPtBhPNqw79Ij1E865zBUv7mxEIgVG.ttf) format('truetype');
+}
+.container {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  font-family: 'Jost', Jost, sans-serif;
+}
+.logo {
+  padding: 0.5em;
+}
+.logo img {
+  padding-left: 0;
+  padding-right: 0;
+}
+.logo a {
+  color: inherit;
+  text-decoration: none;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.logo a:visited {
+  color: inherit;
+}
+#content section {
+  font-size: medium;
+  text-align: left;
+}
+.infobox {
+  border: solid #010101;
+  border-radius: 10%;
+  overflow: hidden;
+  margin: 0.1em;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+}
+.infobox-header {
+  text-align: center;
+  width: 100%;
+  background-color: #010101;
+  color: #ffffff;
+}
+.infobox:hover {
+  border-color: #2ecc40;
+}
+.infobox:hover > .infobox-header {
+  background-color: #2ecc40;
+  transform: scale(1.1);
+}
+.infobox-body {
+  text-align: left;
+  font-size: small;
+  margin: 5%;
+}
+.infobox-body > p {
+  padding-left: 1em;
+  text-indent: -1em;
+}

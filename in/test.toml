@@ -1,0 +1,13 @@
+name = "Michael Fitzgerald"
+
+[pages]
+    [pages.home]
+    src = "index.html"
+
+    [pages.projects]
+    name = "Projects"
+    src = "projects.html"
+
+    [pages.links]
+    name = "Links"
+    src = "links.html"
